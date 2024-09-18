@@ -92,14 +92,14 @@ return [
                 ],
                 "banner" => [
                     "heading" => "PROVIDING SOLUTION <br> & PRODUCING COMPANY",
-                    "image" => "/images/top/banner.jpg",
+                    "image" => "/images/top/banner.webp",
                     "link" => [
                         "href" => "/about",
                         "text" => "read more about us"
                     ],
                     "caption" => [
                         "heading" => "With more than 18 years of experience in manufacturing and providing agricultural solutions, we are confident to provide you with the most optimal service.",
-                        "image" => "/images/top/banner-caption.jpg",
+                        "image" => "/images/top/banner-caption.webp",
                     ],
                 ],
                 "what" => [
@@ -110,11 +110,11 @@ return [
                 "company" => [
                     1 => [
                         "title" => "Research in the laboratory",
-                        "image" => "/images/top/transport1.jpg"
+                        "image" => "/images/top/research.webp"
                     ],
                     2 => [
                         "title" => "On-farm testing",
-                        "image" => "/images/top/transport2.jpg"
+                        "image" => "/images/top/testing.webp"
                     ],
                 ],
                 "target" => [
@@ -125,7 +125,7 @@ return [
                 ],
                 "about" => [
                     "heading" => "VEROSCA – Expert in the field of manufacturing and providing agricultural solutions",
-                    "image" => "/images/top/about.jpg",
+                    "image" => "/images/top/about.webp",
                     "title" => "About our company",
                     "content" => [
                         1 => "VESROCA CORP, established in the 2000s, was formerly a family company founded with the purpose of producing fertilizers and supplying farms in the surrounding area.",
@@ -147,7 +147,7 @@ return [
                     "descriptions" => "",
                 ],
                 "banner" => [
-                    "image" => "/images/about/banner.jpg",
+                    "image" => "/images/about/banner.webp",
                     "heading" => "About our company",
                     "sub" => ""
                 ],
@@ -159,7 +159,7 @@ return [
                         3 => "Currently, we are present in 5 continents, more than 30 countries, distribution system with more than 100 distribution partners, production manufacture system located in France, Italy, Spain, Belgium, Netherlands, Turkey, Jordan, China, USA, Canada, ...",
                         4 => "With many years of experience and a team of plant nutrition experts, we are confident we will bring you the best solutions.",
                     ],
-                    "image" => "/images/about/section.jpg"
+                    "image" => "/images/about/section.webp"
                 ],
             ],
             "what" => [
@@ -170,7 +170,7 @@ return [
                     "descriptions" => "",
                 ],
                 "banner" => [
-                    "image" => "/images/what-we-do/banner.jpg",
+                    "image" => "/images/what-we-do/banner.webp",
                     "heading" => "What we do",
                     "sub" => "Our strength is consulting solutions and providing agricultural products suitable to your needs. So please contact us to find the most optimal solution."
                 ],
@@ -187,7 +187,7 @@ return [
                 ],
                 "banner" => [
                     "heading" => "Contact with us",
-                    "image" => "/images/contact/banner.jpg",
+                    "image" => "/images/contact/banner.webp",
                 ],
                 "info" => [
                     1 => "Europe Contact: <br> Europe@verosca.com",
