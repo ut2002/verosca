@@ -5,7 +5,8 @@
             <div class="d-flex justify-content-between align-items-center">
                 <div class="header-logo">
                     <a href="/">
-                        <img src="<?= $global["header"][1] ?>" alt="" class="img-fluid">
+                        <img src="<?= $global["header"][1] ?>" alt="" class="img-fluid d-none d-lg-block">
+                        <img src="<?= $global["header"][2] ?>" alt="" class="img-fluid d-block d-lg-none">
                     </a>
                 </div>
                 <div class="header-menu d-none d-lg-block">
@@ -27,7 +28,7 @@
 
                     </div>
                 </div>
-                <div class="header-menu-sp d-flex d-lg-none">
+                <div class="header-menu-sp d-flex d-lg-none align-items-center">
                     <?= $this->element('language'); ?>
                     <button
                         class="btn responsive-menu-toggle"
@@ -47,7 +48,7 @@
                                 <?php foreach ($global['menu'] as $menu): ?>
                                     <?php if ($menu["show"]): ?>
                                         <li class="item">
-                                            <a class="nav-link active" href="<?= $menu["link"] ?>"><?= $menu["title"] ?></a>
+                                            <a class="nav-link <?= isset($meta['menu_active']) && $meta['menu_active'] === $menu['menu_active'] ? 'active' : ''; ?>" href="<?= $menu["link"] ?>"><?= $menu["title"] ?></a>
                                         </li>
                                     <?php endif; ?>
                                 <?php endforeach; ?>

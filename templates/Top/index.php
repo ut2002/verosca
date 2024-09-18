@@ -117,12 +117,12 @@
                         </div>
                     </div>
                     <div class="top-page-about-footer">
-                        <div class="d-flex align-items-center">
-                            <div class="flex-shrink-0 top-page-about-footer-caption">
+                        <div class="row row-cols-lg-2 row-cols-1 g-0 align-items-center">
+                            <div class="top-page-about-footer-caption">
                                 <img src="<?= $text['about']['image'] ?>" alt="..." class="w-100">
                                 <div class="caption"><?= $text['about']['heading'] ?></div>
                             </div>
-                            <div class="flex-grow-1 ms-3">
+                            <div class="ps-3">
                                 <div class="top-page-about-footer-card">
                                     <div class="title"><?= $text['about']['title'] ?></div>
                                     <div class="content">

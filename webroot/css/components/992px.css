@@ -1,0 +1,31 @@
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .header-logo, .menu-sticky .header-logo {
+        padding-bottom: 10px;
+    }
+    .header-logo img {
+        height: 50px;
+    }
+    .header-menu-sp .language button {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-decoration: none;
+        padding: 0;
+        vertical-align: middle;
+        vertical-align: -webkit-baseline-middle;
+    }
+    .header-menu-sp .language button:active, .header-menu-sp .language button.show {
+        border-color: transparent;
+        color: var(--main);
+    }
+    .top-page-services-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .top-page-services-card .card-link {
+        height: 0;
+        padding: 0;
+    }
+}

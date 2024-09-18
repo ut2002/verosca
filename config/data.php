@@ -37,6 +37,7 @@ return [
             ],
             "header" => [
                 1 => "/images/logo.png",
+                2 => "/images/logo-mobile.png",
             ],
             "footer" => [
                 1 => "/images/logo.png",

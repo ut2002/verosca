@@ -1,0 +1,52 @@
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+    .header-logo, .menu-sticky .header-logo {
+        padding-left: 0;
+    }
+    .header-menu .item:last-child {
+        padding-right: 0;
+    }
+    .top-page-banner-caption-heading {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .top-page-services-header-heading {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .top-page-services-items {
+        gap: 30px;
+    }
+    .top-page-about-footer-caption .caption {
+        font-size: 27px;
+    }
+    .top-page-about-footer-card .title {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .top-page-about-footer-card .content {
+        padding-bottom: 0;
+    }
+    .main-banner .heading {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .main-banner .sub-heading {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .about-page .section-about-box .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .what-card-body .title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .what-card-body p {
+        font-size: 16px;
+    }
+    .section-contact .info .item {
+        padding: 30px 24px 15px;
+    }
+}

@@ -1,0 +1,55 @@
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+    .top-page-banner-caption-heading {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .top-page-banner-card-text {
+        padding: 35px;
+        font-size: 20px;
+    }
+    .top-page-services-header-heading {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .top-page-services-header-heading {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .top-page-services {
+        padding: 50px 0;
+    }
+    .top-page-about-footer-caption .caption {
+        padding: 25px;
+    }
+    .main-banner .heading {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .about-page .section-about-box .title {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .main-banner .sub-heading {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .main-banner {
+        padding: 250px 0 100px;
+    }
+    .what-card-body .title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .what-card-body p {
+        min-height: 80px;
+    }
+    .section-contact .info .item {
+        flex-basis: 33.3333%;
+        margin-bottom: 30px;
+    }
+    .top-page-services-card .card-header {
+        font-size: 20px;
+    }
+}
