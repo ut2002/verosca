@@ -1,0 +1,99 @@
+
+#headerBar {
+    position: absolute;
+    left: 0;
+    top: 61px;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+    z-index: 30;
+    transition: 0.5s;
+}
+#headerBar>div {
+    padding: 0 50px;
+}
+.header-logo {
+    padding: 10px 0 50px 50px;
+}
+.header-logo img {
+    height: 100px;
+}
+.header-menu .item {
+    padding: 0 20px;
+}
+.header-menu .item>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+.header-menu .item>a:hover,
+.header-menu .item>a.active {
+    color: var(--main);
+}
+.header-menu .item .language button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 0;
+    vertical-align: middle;
+    vertical-align: -webkit-baseline-middle;
+}
+.header-menu .item .language button:hover {
+    color: var(--main);
+}
+.header-menu .item .language button:active,
+.header-menu .item .language button.show {
+    border-color: transparent;
+    color: var(--main);
+}
+.header-menu-sp .item {
+    border-top: 1px solid var(--line);
+    padding: 10px 20px;
+}
+.header-menu-sp .item:last-child {
+    border-bottom: 1px solid var(--line);
+
+}
+.header-menu-sp .item>a {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.header-menu-sp .item>a.active {
+    color: var(--main);
+}
+
+.responsive-menu-toggle {
+    color: #fff;
+    font-size: 20px;
+}
+.responsive-menu-toggle:hover,
+.responsive-menu-toggle:active {
+    color: var(--main); !important;
+    border-color: transparent !important;
+}
+#headerBar.menu-sticky {
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    top: -60px;
+    z-index: 701;
+    background: var(--bg-menu);;
+    opacity: .97;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+.menu-sticky .header-logo {
+    padding: 5px 0 0 50px;
+}

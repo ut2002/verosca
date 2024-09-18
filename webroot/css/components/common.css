@@ -1,0 +1,49 @@
+:root {
+    --main: #36d56e;
+    --secondary: #444;
+    --bg-main: #232e31;
+    --bg-menu: #131a1c;
+    --bg-footer: #efefef;
+    --line: #D6D6D6;
+    --invaild: #FF0000;
+}
+body {
+    font-family: "Teko", Helvetica, Arial, sans-serif;
+}
+
+.main-banner {
+    background-color: rgba(247, 247, 247, 0);
+    padding: 320px 0 120px;
+    background-image: url(https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-contact-subheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.main-banner .heading {
+    color: #fff;
+    font-size: 90px;
+    line-height: 90px;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.main-banner .sub-heading {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+    letter-spacing: 0;
+}
+.btn-href, .btn-href:hover, .btn-href:focus, .btn-href:focus-within, .btn-href:active {
+    background-color: var(--main) !important;
+    padding: 10px 30px;
+    color: #fff !important;
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.href-arrow {
+    background-image: url(https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-arrow-right2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 0 50px 0 0;
+}
