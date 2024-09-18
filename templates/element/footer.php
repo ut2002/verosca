@@ -3,49 +3,33 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-3 logo">
-                    <img src="/images/logo.png" class="img-fluid" alt="">
+                    <img src="<?= $global["footer"][1] ?>" class="img-fluid" alt="">
                 </div>
                 <div class="col-6 title">
-                    We are confident to provide you with the most optimal service.
+                    <?= $global["footer"][2] ?>
                 </div>
                 <div class="col-3 d-flex justify-content-end social">
-                    <div class="social-item">
-                        <a href="#" class="facebook">
+                    <?php foreach ($global['social'] as $social_key => $social): ?>
+                        <?php if ($social["show"]): ?>
+                            <div class="social-item">
+                                <a href="<?= $social["link"] ?>" target="_blank" class="<?= $social_key ?>">
                                     <span class="t">
-                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <i class="<?= $social["icon"] ?>"></i>
                                     </span>
-                            <span class="b">
-                                        <i class="fa-brands fa-facebook-f"></i>
+                                    <span class="b">
+                                        <i class="<?= $social["icon"] ?>"></i>
                                     </span>
-                        </a>
-                    </div>
-                    <div class="social-item">
-                        <a href="#" class="youtube">
-                                    <span class="t">
-                                        <i class="fa-brands fa-youtube"></i>
-                                    </span>
-                            <span class="b">
-                                        <i class="fa-brands fa-youtube"></i>
-                                    </span>
-                        </a>
-                    </div>
-                    <div class="social-item">
-                        <a href="#" class="linkedin">
-                                    <span class="t">
-                                        <i class="fa-brands fa-linkedin"></i>
-                                    </span>
-                            <span class="b">
-                                        <i class="fa-brands fa-linkedin"></i>
-                                    </span>
-                        </a>
-                    </div>
+                                </a>
+                            </div>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
     </div>
     <div class="copyright">
         <p class="mb-0">
-            Copyright © VEROSCA. All rights reserved
+            <?= $global["footer"][3] ?>
         </p>
     </div>
 </footer>

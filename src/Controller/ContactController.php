@@ -23,9 +23,9 @@ class ContactController extends AppController
         $data = [];
         if ($this->request->is('ajax')) {
             $data['name'] = $this->request->getData('name');
-            $data['phone'] = $this->request->getData('phone');
             $data['email'] = $this->request->getData('email');
-            $data['content'] = $this->request->getData('content');
+            $data['subject'] = $this->request->getData('subject');
+            $data['message'] = $this->request->getData('message');
             $data['text'] = Configure::read($this->getLanguage() . '.page.contact');
             $this->sendMail($data);
         }

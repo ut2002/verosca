@@ -8,8 +8,8 @@ class AboutController extends AppController
 {
     public function index()
     {
-//        $text = Configure::read($this->getLanguage() . '.page.about');
-//        $this->set(['text' => $text]);
-//        $this->set(['meta' => $text['meta']]);
+        $text = Configure::read($this->getLanguage() . '.page.about');
+        $this->set(['text' => $text]);
+        $this->set(['meta' => $text['meta']]);
     }
 }

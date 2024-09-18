@@ -11,5 +11,8 @@ class TopController extends AppController
         $text = Configure::read($this->getLanguage() . '.page.top');
         $this->set(['text' => $text]);
         $this->set(['meta' => $text['meta']]);
+
+        $whats = Configure::read($this->getLanguage() . '.what');
+        $this->set(['whats' => $whats]);
     }
 }

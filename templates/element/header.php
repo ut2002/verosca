@@ -5,7 +5,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <div class="header-logo">
                     <a href="/">
-                        <img src="/images/logo.png" alt="" class="img-fluid">
+                        <img src="<?= $global["header"][1] ?>" alt="" class="img-fluid">
                     </a>
                 </div>
                 <div class="header-menu d-none d-lg-block">
