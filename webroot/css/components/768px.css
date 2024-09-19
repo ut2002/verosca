@@ -1,0 +1,27 @@
+/*`md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .top-page-banner-card-image {
+        height: 150px;
+    }
+    footer .logo img {
+        height: 100px;
+    }
+    .what-card-body {
+        padding: 0 0 20px 0;
+    }
+    .what-card-body p {
+        min-height: 0;
+    }
+    .section-contact .info .item {
+        width: 50%;
+    }
+    .top-page-about-body .progress-wrapper p {
+        padding-top: 5px;
+    }
+    .section-contact {
+        padding-top: 50px;
+    }
+    .contact-form {
+        padding: 30px;
+    }
+}

@@ -12,11 +12,11 @@
                                 <a href="<?= $text['banner']['link']['href'] ?>" class="btn btn-href top-page-banner-caption-link"><?= $text['banner']['link']['text'] ?></a>
                             </div>
                         </div>
-                        <div class="d-flex top-page-banner-card">
-                            <div class="w-50 top-page-banner-card-text">
+                        <div class="d-flex flex-md-row flex-column top-page-banner-card">
+                            <div class="w-md-50 w-100 top-page-banner-card-text">
                                 <?= $text['banner']['caption']['heading'] ?>
                             </div>
-                            <div class="w-50 top-page-banner-card-image" style="background-image: url(<?= $text['banner']['caption']['image'] ?>)">
+                            <div class="w-md-50 w-100 top-page-banner-card-image" style="background-image: url(<?= $text['banner']['caption']['image'] ?>)">
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                 </div>
                 <div class="container">
                     <div class="top-page-about-body">
-                        <div class="row row-cols-4">
+                        <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-1 g-3 g-lg-0">
                             <div class="col d-flex flex-column align-items-center progress-wrapper">
                                 <div class="progress-circle over50 p60">
                                     <span>60+</span>

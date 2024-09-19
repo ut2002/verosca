@@ -1,14 +1,14 @@
 <footer>
     <div class="main">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-3 logo">
+            <div class="row align-items-center g-md-0 g-3">
+                <div class="col-md-3 logo">
                     <img src="<?= $global["footer"][1] ?>" class="img-fluid" alt="">
                 </div>
-                <div class="col-6 title">
+                <div class="col-md-6 title">
                     <?= $global["footer"][2] ?>
                 </div>
-                <div class="col-3 d-flex justify-content-end social">
+                <div class="col-md-3 d-flex justify-content-end social">
                     <?php foreach ($global['social'] as $social_key => $social): ?>
                         <?php if ($social["show"]): ?>
                             <div class="social-item">

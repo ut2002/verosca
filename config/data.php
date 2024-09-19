@@ -27,7 +27,7 @@ return [
                 "en" => [
                     "show" => true,
                     "name" => "english",
-                    "flag" => "https://cdn.countryflags.com/thumbs/england/flag-round-250.png"
+                    "flag" => "/images/common/english-flag.png"
                 ],
                 "fr" => [
                     "show" => false,
@@ -243,25 +243,25 @@ return [
                 "title" => "manufactured on demand",
                 "desc" => "Producing fertilizer/plant protection products according to your requirements.",
                 "content" => "Producing fertilizer/plant protection products according to your requirements. We can produce full lines of fertilizers such as Soil Improvers, Biostimulants, NPK Fertilizer, Micronutrition, Harvest Enhancers, Especial Ranges, pH Regulator.",
-                "image" => "https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-services-pic1.jpg",
+                "image" => "/images/what-we-do/1.png",
             ],
             2 => [
                 "title" => "solution consulting",
                 "desc" => "Consulting on products and solutions suitable for the crops in your market.",
                 "content" => "Consulting on products and solutions suitable for the crops in your market. Depending on the crop and growing area, we will advise on the most suitable solution for the problem you are facing.",
-                "image" => "https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-services-pic1.jpg",
+                "image" => "/images/what-we-do/2.png",
             ],
             3 => [
                 "title" => "transportation services",
                 "desc" => "Transport goods to your desired destination with a variety of transportation methods.",
                 "content" => "Transport goods to your desired destination with a variety of transportation methods. Multimodal transportation is also one of our strengths, ready to meet your transportation requirements.",
-                "image" => "https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-services-pic1.jpg",
+                "image" => "/images/what-we-do/3.png",
             ],
             4 => [
                 "title" => "product research",
                 "desc" => "Research and develop new products upon request and test at experimental farms.",
                 "content" => "Research and develop new products upon request and test at experimental farms.  Products must be tested and researched most carefully before being put into industrial production to avoid unnecessary problems.",
-                "image" => "https://themes.muffingroup.com/be/transport3/wp-content/uploads/2019/07/transport3-services-pic1.jpg",
+                "image" => "/images/what-we-do/4.png",
             ],
         ]
     ],

@@ -13,7 +13,7 @@
         font-weight: bold;
         letter-spacing: 1px;
         text-decoration: none;
-        padding: 0;
+        padding: 0 20px 0 0;
         vertical-align: middle;
         vertical-align: -webkit-baseline-middle;
     }
@@ -21,11 +21,29 @@
         border-color: transparent;
         color: var(--main);
     }
+    .main-banner {
+        padding: 200px 0 100px;
+    }
     .top-page-services-items {
         grid-template-columns: repeat(2, 1fr);
     }
     .top-page-services-card .card-link {
         height: 0;
         padding: 0;
+    }
+    .about-page .section-about-box .info {
+        width: 100%;
+    }
+    .about-page .section-about-box .image {
+        width: 100%;
+    }
+    .what-card-image img {
+        width: 150px;
+    }
+    .what-card-body {
+        padding: 20px;
+    }
+    .top-page-banner {
+        height: auto;
     }
 }

@@ -77,6 +77,7 @@
     z-index: 1;
 }
 .top-page-banner-caption {
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 .top-page-banner-caption-heading {
@@ -156,6 +157,9 @@
 }
 .top-page-services-card .card-content {
     font-size: 20px;
+}
+.top-page-services-card .card-image img {
+    width: 150px;
 }
 .top-page-about {
     background-color: #fff;
@@ -302,4 +306,10 @@
     font-weight: lighter;
     letter-spacing: 1px;
     color: #fff;
+}
+.what-card-image {
+    padding-left: 50px;
+}
+.what-card-image img {
+    width: 250px;
 }

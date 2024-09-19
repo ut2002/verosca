@@ -46,7 +46,7 @@
         min-height: 80px;
     }
     .section-contact .info .item {
-        flex-basis: 33.3333%;
+        width: 33.3333%;
         margin-bottom: 30px;
     }
     .top-page-services-card .card-header {

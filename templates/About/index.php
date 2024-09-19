@@ -10,7 +10,7 @@
             </div>
             <div class="section-about">
                 <div class="container">
-                    <div class="d-flex align-items-center section-about-box">
+                    <div class="d-flex flex-lg-row flex-column align-items-center section-about-box">
                         <div class="info">
                             <div class="title">
                                 <?= $text['info']['title'] ?>

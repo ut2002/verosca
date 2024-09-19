@@ -13,7 +13,7 @@
             </div>
             <div class="section-what">
                 <div class="container">
-                    <div class="row row-cols-2">
+                    <div class="row row-cols-md-2 row-cols-1 g-md-0 g-3">
                         <?php foreach ($whats as $info): ?>
                             <div class="col">
                                 <div class="what-card">
@@ -24,7 +24,7 @@
                                         </p>
                                     </div>
                                     <div class="what-card-image">
-                                        <img src="<?= $info['image'] ?>" class="w-100" alt="">
+                                        <img src="<?= $info['image'] ?>" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
