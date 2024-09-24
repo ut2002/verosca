@@ -7,7 +7,7 @@
     <?php endif; ?>
     <ul class="dropdown-menu">
         <?php foreach ($global['languages'] as $lang_key => $lang): ?>
-            <?php if ($lang["show"]): ?>
+            <?php if ($lang_key !== $language_active && $lang["show"]): ?>
                 <li>
                     <a class="dropdown-item text-capitalize" href="?language=<?= $lang_key ?>">
                         <img src="<?= $lang["flag"] ?>" class="me-1 mb-1" style="height: 20px" alt="">

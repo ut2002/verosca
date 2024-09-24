@@ -62,7 +62,7 @@ class AppController extends Controller
     private function setLanguage()
     {
         $language_key = $this->request->getQuery('language');
-        if (!empty($language_key) && in_array($language_key, ['en'])) {
+        if (!empty($language_key) && in_array($language_key, ['en', 'fr', 'ita', 'es', 'tu', 'ch'])) {
             $session = $this->request->getSession();
             $session->write('language', $language_key);
         }

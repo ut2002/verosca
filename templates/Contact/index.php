@@ -90,13 +90,13 @@ function sendContact() {
             url:"/contact/store",
             beforeSend: function () {
                 $('#formContent').remove();
-                $('#formAlert').removeClass('d-none').html('<?= $text['form']['progress_mes']; ?>');
+                $('#formAlert').removeClass('d-none').html('<?= h($text['form']['progress_mes']); ?>');
             },
             success : function () {
-                $('#formAlert').html('<?= $text['form']['success_mes']; ?>');
+                $('#formAlert').html('<?= h($text['form']['success_mes']); ?>');
             },
             error:function (){
-                $('#formAlert').html('<?= $text['form']['success_mes']; ?>');
+                $('#formAlert').html('<?= h($text['form']['success_mes']); ?>');
             }
         });
     }
